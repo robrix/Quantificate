@@ -1,0 +1,16 @@
+#Quantificate
+
+verb |ˈkwänˈtifiˌkāt| [ intrans. ]
+
+1. to officiate as a quantifier, e.g. of mass.
+2. to measure quantities in a way considered annoyingly pompous and dogmatic: *he was quantificating lengths and angles*.
+
+(From “quantification,” and by an overstretched analogy with “pontificate.”)
+
+##Why?
+
+Opportunity presented itself to work with angles, lengths, and masses in various units, and rather than solving the problem at hand I chose to solve this one instead.
+
+##How?
+
+You’ll see.
