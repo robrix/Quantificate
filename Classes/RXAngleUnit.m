@@ -7,20 +7,20 @@
 
 @implementation RXAngleUnit
 
-+(RXAngleUnit *)radians:(CGFloat)quantity {
++(RXAngleUnit *)radians:(RXQuantity)quantity {
 	return [self unitWithQuantity: quantity];
 }
 
-+(RXAngleUnit *)degrees:(CGFloat)quantity {
++(RXAngleUnit *)degrees:(RXQuantity)quantity {
 	return [self unitWithQuantity: quantity * M_PI / 180.0];
 }
 
 
--(CGFloat)degrees {
+-(RXQuantity)degrees {
 	return quantity * 180.0 / M_PI;
 }
 
--(CGFloat)radians {
+-(RXQuantity)radians {
 	return quantity;
 }
 

@@ -4,10 +4,14 @@
 
 #import "RXUnit.h"
 
-@interface RXLengthUnit : RXUnit {
-	
-}
+@interface RXLengthUnit : RXUnit
 
++(RXLengthUnit *)metres:(RXQuantity)quantity;
++(RXLengthUnit *)kilometres:(RXQuantity)quantity;
++(RXLengthUnit *)astronomicalUnits:(RXQuantity)quantity;
 
+@property (nonatomic, readonly) RXQuantity metres;
+@property (nonatomic, readonly) RXQuantity kilometres;
+@property (nonatomic, readonly) RXQuantity astronomicalUnits;
 
 @end

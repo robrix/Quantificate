@@ -13,10 +13,11 @@ Opportunity presented itself to work with angles, lengths, durations, and masses
 
 ##How?
 
-	[RXLengthUnit miles: 500].kilometres // long-form, ever-so-dull
-	[RXUnit degrees: 180].radians // shorter-form, sweet
-	RXHours(24).days // shortest-form, sweeter!
+	[RXLengthUnit miles: 500].kilometres // long-form, possible but ever so dull. Don’t use this one.
+	RXHours(24).days // short-form, and far sweeter! Use this one instead.
+
+For convenience, quantities are converted to SI base units when initialized. All the usual warnings about floating point accuracy apply; a version of this with fixed point quantities would probably not be too hard if one were interested in making the effort. At the moment, I am not.
 
 ##Who?
 
-[Rob Rix](http://github.com/robrix), who is in no way affiliated with your local Weights and Measures Office.
+[Rob Rix](http://github.com/robrix), who is in no way affiliated with the [Weights and Measures Office](http://en.wikipedia.org/wiki/File:Weights_and_Measures_office.jpg).

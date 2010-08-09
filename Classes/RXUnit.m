@@ -9,19 +9,32 @@
 
 @implementation RXUnit
 
-+(id)unitWithQuantity:(CGFloat)quantity {
++(id)unitWithQuantity:(RXQuantity)quantity {
 	RXUnit *unit = [[self alloc] init];
 	unit->quantity = quantity;
 	return unit;
 }
 
+@end
 
-+(RXAngleUnit *)degrees:(CGFloat)quantity {
+
+RXAngleUnit *RXDegrees(RXQuantity quantity) {
 	return [RXAngleUnit degrees: quantity];
 }
 
-+(RXAngleUnit *)radians:(CGFloat)quantity {
+RXAngleUnit *RXRadians(RXQuantity quantity) {
 	return [RXAngleUnit radians: quantity];
 }
 
-@end
+
+RXLengthUnit *RXMetres(RXQuantity quantity) {
+	return [RXLengthUnit metres: quantity];
+}
+
+RXLengthUnit *RXKilometres(RXQuantity quantity) {
+	return [RXLengthUnit kilometres: quantity];
+}
+
+RXLengthUnit *RXAstronomicalUnits(RXQuantity quantity) {
+	return [RXLengthUnit astronomicalUnits: quantity];
+}

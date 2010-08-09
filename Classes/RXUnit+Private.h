@@ -6,6 +6,6 @@
 
 @interface RXUnit ()
 
-+(id)unitWithQuantity:(CGFloat)quantity;
++(id)unitWithQuantity:(RXQuantity)quantity;
 
 @end

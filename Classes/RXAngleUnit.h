@@ -6,10 +6,10 @@
 
 @interface RXAngleUnit : RXUnit
 
-+(RXAngleUnit *)radians:(CGFloat)quantity;
-+(RXAngleUnit *)degrees:(CGFloat)quantity;
++(RXAngleUnit *)radians:(RXQuantity)quantity;
++(RXAngleUnit *)degrees:(RXQuantity)quantity;
 
-@property (nonatomic, readonly) CGFloat degrees;
-@property (nonatomic, readonly) CGFloat radians;
+@property (nonatomic, readonly) RXQuantity degrees;
+@property (nonatomic, readonly) RXQuantity radians;
 
 @end

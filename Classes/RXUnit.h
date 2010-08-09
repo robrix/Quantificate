@@ -6,18 +6,16 @@
 
 @class RXAngleUnit, RXDurationUnit, RXLengthUnit;
 
+typedef CGFloat RXQuantity;
+
 @interface RXUnit : NSObject {
-	CGFloat quantity;
+	RXQuantity quantity;
 }
-
-+(RXAngleUnit *)degrees:(CGFloat)quantity;
-+(RXAngleUnit *)radians:(CGFloat)quantity;
-
-// +(RXDurationUnit *)seconds:(CGFloat)quantity;
-// +(RXDurationUnit *)minutes:(CGFloat)quantity;
-// +(RXDurationUnit *)hours:(CGFloat)quantity;
-// +(RXDurationUnit *)days:(CGFloat)quantity;
-// +(RXDurationUnit *)weeks:(CGFloat)quantity;
-// +(RXDurationUnit *)years:(CGFloat)quantity;
-
 @end
+
+RXAngleUnit *RXDegrees(RXQuantity quantity);
+RXAngleUnit *RXRadians(RXQuantity quantity);
+
+RXLengthUnit *RXMetres(RXQuantity quantity);
+RXLengthUnit *RXKilometres(RXQuantity quantity);
+RXLengthUnit *RXAstronomicalUnits(RXQuantity quantity);
