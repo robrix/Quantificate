@@ -1,0 +1,16 @@
+Units:
+	Duration:
+		- seconds
+		- minutes
+		- hours
+		- days
+		- julian years
+		- years
+
+Overall:
+	- represent units with a conversion factor rather than repeating magic numbers in the code.
+		Could look factors up in a table, or could use const globals for the conversion factors and use the symbols (and their reciprocals).
+	- properties for abbreviations, e.g. km, m, au, deg, rad.
+	- functions for abbreviations? RXkm() doesn’t work, km() doesn’t work, $km() might but is kind of awful.
+	- RXQuantity(x).asKilometres.astronomicalUnits?
+	- RXQuantity(x).fromDegrees.toRadians?
