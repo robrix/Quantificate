@@ -9,8 +9,14 @@ verb |ˈkwänˈtifiˌkāt| [ intrans. ]
 
 ##Why?
 
-Opportunity presented itself to work with angles, lengths, and masses in various units, and rather than solving the problem at hand I chose to solve this one instead.
+Opportunity presented itself to work with angles, lengths, durations, and masses in various units, and rather than solving the problem at hand I chose to solve this one instead.
 
 ##How?
 
-You’ll see.
+	[RXLengthUnit miles: 500].kilometres // long-form, ever-so-dull
+	[RXUnit degrees: 180].radians // shorter-form, sweet
+	RXHours(24).days // shortest-form, sweeter!
+
+##Who?
+
+[Rob Rix](http://github.com/robrix), who is in no way affiliated with your local Weights and Measures Office.

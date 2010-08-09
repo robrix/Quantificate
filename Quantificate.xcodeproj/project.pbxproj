@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D444D8411200E9F2009C1E3A /* Quantificate.pch in Headers */ = {isa = PBXBuildFile; fileRef = D444D8401200E9F2009C1E3A /* Quantificate.pch */; };
+		D4E97704120FFE890057948F /* Quantificate.h in Headers */ = {isa = PBXBuildFile; fileRef = D4E97703120FFE890057948F /* Quantificate.h */; };
+		D4E9770D120FFE910057948F /* RXAngleUnit.h in Headers */ = {isa = PBXBuildFile; fileRef = D4E97705120FFE910057948F /* RXAngleUnit.h */; };
+		D4E9770E120FFE910057948F /* RXAngleUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E97706120FFE910057948F /* RXAngleUnit.m */; };
+		D4E9770F120FFE910057948F /* RXDurationUnit.h in Headers */ = {isa = PBXBuildFile; fileRef = D4E97707120FFE910057948F /* RXDurationUnit.h */; };
+		D4E97710120FFE910057948F /* RXDurationUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E97708120FFE910057948F /* RXDurationUnit.m */; };
+		D4E97711120FFE910057948F /* RXLengthUnit.h in Headers */ = {isa = PBXBuildFile; fileRef = D4E97709120FFE910057948F /* RXLengthUnit.h */; };
+		D4E97712120FFE910057948F /* RXLengthUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E9770A120FFE910057948F /* RXLengthUnit.m */; };
+		D4E97713120FFE910057948F /* RXUnit.h in Headers */ = {isa = PBXBuildFile; fileRef = D4E9770B120FFE910057948F /* RXUnit.h */; };
+		D4E97714120FFE910057948F /* RXUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E9770C120FFE910057948F /* RXUnit.m */; };
+		D4E9777412100BBC0057948F /* RXAssertions.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E9774F12100BBC0057948F /* RXAssertions.m */; };
+		D4E9778412100BF80057948F /* RXAngleUnitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E9778312100BF80057948F /* RXAngleUnitTests.m */; };
+		D4E9778612100C5E0057948F /* libQuantificate.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D2AAC07E0554694100DB518D /* libQuantificate.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D4E9778712100C610057948F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D /* Quantificate */;
+			remoteInfo = Quantificate;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0867D69BFE84028FC02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		D2AAC07E0554694100DB518D /* libQuantificate.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libQuantificate.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D444D8401200E9F2009C1E3A /* Quantificate.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Quantificate.pch; sourceTree = "<group>"; };
+		D4E97703120FFE890057948F /* Quantificate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Quantificate.h; sourceTree = "<group>"; };
+		D4E97705120FFE910057948F /* RXAngleUnit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RXAngleUnit.h; sourceTree = "<group>"; };
+		D4E97706120FFE910057948F /* RXAngleUnit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RXAngleUnit.m; sourceTree = "<group>"; };
+		D4E97707120FFE910057948F /* RXDurationUnit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RXDurationUnit.h; sourceTree = "<group>"; };
+		D4E97708120FFE910057948F /* RXDurationUnit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RXDurationUnit.m; sourceTree = "<group>"; };
+		D4E97709120FFE910057948F /* RXLengthUnit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RXLengthUnit.h; sourceTree = "<group>"; };
+		D4E9770A120FFE910057948F /* RXLengthUnit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RXLengthUnit.m; sourceTree = "<group>"; };
+		D4E9770B120FFE910057948F /* RXUnit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RXUnit.h; sourceTree = "<group>"; };
+		D4E9770C120FFE910057948F /* RXUnit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RXUnit.m; sourceTree = "<group>"; };
+		D4E9771C1210093C0057948F /* Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4E977211210094D0057948F /* Tests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
+		D4E9774E12100BBC0057948F /* RXAssertions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RXAssertions.h; sourceTree = "<group>"; };
+		D4E9774F12100BBC0057948F /* RXAssertions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RXAssertions.m; sourceTree = "<group>"; };
+		D4E9778312100BF80057948F /* RXAngleUnitTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RXAngleUnitTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2AAC07C0554694100DB518D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4E977191210093C0057948F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4E9778612100C5E0057948F /* libQuantificate.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC07E0554694100DB518D /* libQuantificate.a */,
+				D4E9771C1210093C0057948F /* Tests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* Quantificate */ = {
+			isa = PBXGroup;
+			children = (
+				08FB77AEFE84172EC02AAC07 /* Classes */,
+				D4E977151210092B0057948F /* Tests */,
+				D4E9772412100BBC0057948F /* External */,
+				32C88DFF0371C24200C91783 /* Other Sources */,
+				0867D69AFE84028FC02AAC07 /* Frameworks */,
+				034768DFFF38A50411DB9C8B /* Products */,
+			);
+			name = Quantificate;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0867D69BFE84028FC02AAC07 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		08FB77AEFE84172EC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D4E97705120FFE910057948F /* RXAngleUnit.h */,
+				D4E97706120FFE910057948F /* RXAngleUnit.m */,
+				D4E97707120FFE910057948F /* RXDurationUnit.h */,
+				D4E97708120FFE910057948F /* RXDurationUnit.m */,
+				D4E97709120FFE910057948F /* RXLengthUnit.h */,
+				D4E9770A120FFE910057948F /* RXLengthUnit.m */,
+				D4E9770B120FFE910057948F /* RXUnit.h */,
+				D4E9770C120FFE910057948F /* RXUnit.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		32C88DFF0371C24200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				D4E97703120FFE890057948F /* Quantificate.h */,
+				D444D8401200E9F2009C1E3A /* Quantificate.pch */,
+			);
+			path = "Other Sources";
+			sourceTree = "<group>";
+		};
+		D4E977151210092B0057948F /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D4E9778312100BF80057948F /* RXAngleUnitTests.m */,
+				D4E977211210094D0057948F /* Tests-Info.plist */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		D4E9772412100BBC0057948F /* External */ = {
+			isa = PBXGroup;
+			children = (
+				D4E9772512100BBC0057948F /* RXAssertions */,
+			);
+			path = External;
+			sourceTree = "<group>";
+		};
+		D4E9772512100BBC0057948F /* RXAssertions */ = {
+			isa = PBXGroup;
+			children = (
+				D4E9774E12100BBC0057948F /* RXAssertions.h */,
+				D4E9774F12100BBC0057948F /* RXAssertions.m */,
+			);
+			path = RXAssertions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2AAC07A0554694100DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D444D8411200E9F2009C1E3A /* Quantificate.pch in Headers */,
+				D4E97704120FFE890057948F /* Quantificate.h in Headers */,
+				D4E9770D120FFE910057948F /* RXAngleUnit.h in Headers */,
+				D4E9770F120FFE910057948F /* RXDurationUnit.h in Headers */,
+				D4E97711120FFE910057948F /* RXLengthUnit.h in Headers */,
+				D4E97713120FFE910057948F /* RXUnit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D2AAC07D0554694100DB518D /* Quantificate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "Quantificate" */;
+			buildPhases = (
+				D2AAC07A0554694100DB518D /* Headers */,
+				D2AAC07B0554694100DB518D /* Sources */,
+				D2AAC07C0554694100DB518D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Quantificate;
+			productName = Quantificate;
+			productReference = D2AAC07E0554694100DB518D /* libQuantificate.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D4E9771B1210093C0057948F /* Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4E977201210093C0057948F /* Build configuration list for PBXNativeTarget "Tests" */;
+			buildPhases = (
+				D4E977171210093C0057948F /* Resources */,
+				D4E977181210093C0057948F /* Sources */,
+				D4E977191210093C0057948F /* Frameworks */,
+				D4E9771A1210093C0057948F /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4E9778812100C610057948F /* PBXTargetDependency */,
+			);
+			name = Tests;
+			productName = Tests;
+			productReference = D4E9771C1210093C0057948F /* Tests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "Quantificate" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 0867D691FE84028FC02AAC07 /* Quantificate */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC07D0554694100DB518D /* Quantificate */,
+				D4E9771B1210093C0057948F /* Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D4E977171210093C0057948F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D4E9771A1210093C0057948F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2AAC07B0554694100DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4E9770E120FFE910057948F /* RXAngleUnit.m in Sources */,
+				D4E97710120FFE910057948F /* RXDurationUnit.m in Sources */,
+				D4E97712120FFE910057948F /* RXLengthUnit.m in Sources */,
+				D4E97714120FFE910057948F /* RXUnit.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4E977181210093C0057948F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4E9777412100BBC0057948F /* RXAssertions.m in Sources */,
+				D4E9778412100BF80057948F /* RXAngleUnitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D4E9778812100C610057948F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2AAC07D0554694100DB518D /* Quantificate */;
+			targetProxy = D4E9778712100C610057948F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB921F08733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INSTALL_PATH = /usr/local/lib;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = Quantificate;
+			};
+			name = Debug;
+		};
+		1DEB922008733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Quantificate_Prefix.pch;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = Quantificate;
+			};
+			name = Release;
+		};
+		1DEB922308733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Other Sources/Quantificate.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		1DEB922408733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		D4E9771E1210093C0057948F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = QUANTIFICATE_UNIT_TESTS;
+				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Cocoa,
+					"-framework",
+					SenTestingKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = Tests;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		D4E9771F1210093C0057948F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Cocoa.framework/Headers/Cocoa.h";
+				INFOPLIST_FILE = "Tests-Info.plist";
+				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Cocoa,
+					"-framework",
+					SenTestingKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = Tests;
+				WRAPPER_EXTENSION = octest;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "Quantificate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB921F08733DC00010E9CD /* Debug */,
+				1DEB922008733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "Quantificate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB922308733DC00010E9CD /* Debug */,
+				1DEB922408733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4E977201210093C0057948F /* Build configuration list for PBXNativeTarget "Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4E9771E1210093C0057948F /* Debug */,
+				D4E9771F1210093C0057948F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}

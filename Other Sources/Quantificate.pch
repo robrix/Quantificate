@@ -1,0 +1,11 @@
+// Quantificate.pch
+// Created by Rob Rix on 2010-07-28
+// Copyright 2010 Monochrome Industries
+
+#ifdef __OBJC__
+	#import <Cocoa/Cocoa.h>
+	#ifdef QUANTIFICATE_UNIT_TESTS
+		#import "RXAssertions.h"
+		#import "Quantificate.h"
+	#endif
+#endif
